@@ -1,0 +1,136 @@
+começar por javascrip ?
+
+aprender tbm html e css- aprender as duas para melhor desempenho no javascript
+
+ESTUDANDO JAVASCRIPT - CURSO EM VIDEO (YOUTUBE.COM/CURSOEMVIDEO)
+
+video 3
+bibliografias sugeridas
+javascript - o guia definitivo - david flanagan
+javascript - guia do programador -mauricio samesilva
+guia de referencia da mozilla
+guia de referencia ecma
+
+O que precisamos
+
+chrome
+visual studios code
+node js
+
+Aula 04
+fazendo a primeira página
+
+* Conteudo em html
+  estilo em css
+  interação em javascript
+
+Aula 05- variáveis e tipos primitivos
+
+"=" sinal de igual significa "recebe"
+"null" variavel recebe null, significa recebe nada
+ 
+* no javascript moderno, além de utilizar a palavra var, também podemos usar a palavra let.
+
+
+Identificadores
+
+	podem começar com letra, $ ou _
+	Não podem começar com números
+	é possivel usar letras ou números
+	é possivel usar acentos e símbolos
+	não podem conter espaços
+	não podem ser palavras reservadas (function, alert, var, comandos do javascript)
+
+	*Maiusculas e minisculas fazem diferença
+	*tente escolher nomes coerentes para as variáveis
+	*evite se tornar um programador alfabeto ou contador
+
+Data types
+
+	numbers conjuntos de caracteres numéricos
+		infinity
+		Nan //not a number
+
+	strings conjuntos de caracteres contendo letras e números
+	boolean verdadeiro e falso (true e false)
+	null
+	undefined
+	object
+		array
+	function
+
+comando typeof mostra o tipo de variavel, se é number, string, object etc
+
+AULA 06 - tratamento de dados
+
+Comentários 
+	em html são feitos com <!--    --!>
+	em css são feitos com /*    */
+	em java //
+	
+
+Conversão de variáveis 
+	string >> number
+	
+	Number.parseInt ( ou parseInt) := converte o que está dentro do parenteses em numero
+	versão mais nova usar apenas number e o javascript já converte em numero inteiro , real 
+
+	number >> string
+	String(n) ou n.toString()
+
+	formatando strings
+	
+	Ao utilizar aspas ' ou " no javascript o resultado é o mesmo para escrever o comando. Porém é necessário a concatenação
+
+	ex: var s = 'hugo'
+		's está em casa' // não faz interpolação = s está em casa
+		s + 'está em casa' // faz interpolação = hugo está em casa
+
+	ao se utilizar a `(crase) ao invés das aspas, estamos usando o template string, onde utilizamos o place holder ${}. Isso é utilisado nos recentes ecmascripts
+
+	s.length // quntos caracteres a string tem
+	s.toUpperCase() // tudo para "MAIÚSCULAS"
+	S.toLowerCase() // tudo para "minúsculas"
+
+	formatando números
+	toFixed() // mostra o numero com as casas decimais definidas
+	n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})//isso mostra a  o valor de moeda corrente
+
+	AULA 07 - OPERADORES
+
+	aritmméticos
+		+, -, *, /, %(resto da divisão), **(potenciação)
+
+		Ordem de precendência (expressões numéricas)
+
+	atribuição
+		Atribuição simples, o sinal de igual "=" significa recebe
+		quando atribuir um novo valor pra variavel, que dependa de um 		valor estabelecido antes, pode-se usar +=, *=, -=, /=, %= ou **=
+
+	incremento
+		atribuir a soma de +1 ou -1 usando ++ ou --. Ex: ++n ou --n (assim 		o incremento (ou decremento) acontece antes; n++ ou n-- acontece 		depois )
+
+d
+
+	relacionais
+	lógicos
+	ternário
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
