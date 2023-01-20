@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da velha</title>
+</head>
+<body>
+    <main>
+        <div class="quarter" id="one">
+            <h1>x ou 0</h1>
+        </div>
+        <div class="quarter" id="two">
+            <h1>x ou 0</h1>
+        </div>
+        <div class="quarter" id="three">
+            <h1>x ou 0</h1>
+        </div>
+        <div class="quarter" id="four">
+            <h1>x ou 0</h1>
+        </div>
+        <div class="quarter" id="five">
+            <h1>x ou 0</h1>
+        </div>
+        <div class="quarter" id="six">
+            <h1>x ou 0</h1>
+        </div>
+        <div class="quarter" id="seven">
+            <h1>x ou 0</h1>
+        </div>
+        <div class="quarter" id="eight">
+            <h1>x ou 0</h1>
+        </div>
+        <div class="quarter" id="nine">
+            <h1>x ou 0</h1>
+        </div>
+    </main>
+    <script>
+        var a = window.document.getElementsByClassName('quarter')[0]
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseup', soltar)
+
+        function clicar() {
+        a.style.background = 'red'
+        }
+        function soltar() {
+            a.style.background = 'green'
+        }
+    </script>
+</body>
+</html>
