@@ -6,6 +6,12 @@ body {
 
 header {
   text-align: center;
+  background-color: cadetblue;
+  width: 530px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(12, 12, 15, 0.479);
+
 }
 
 section {
@@ -14,7 +20,7 @@ section {
   padding: 15px;
   width: 500px;
   margin: auto;
-  box-shadow: 10px 10px 10px rgb(12, 12, 15)
+  box-shadow: 10px 10px 10px rgba(12, 12, 15, 0.479);
 }
 
 div {
