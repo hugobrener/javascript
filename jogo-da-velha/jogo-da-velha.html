@@ -9,38 +9,45 @@
 </head>
 <body>
     <main>
-        <div class="quarter" id="one">
-            <h1>x ou 0</h1>
+        <div class="linha-1" id="linha01">
+            <div class="quarter" id="quarter">
+                <h1>x ou 0</h1>
+            </div>
+            <div class="quarter" id="quarter">
+                <h1>x ou 0</h1>
+            </div>
+            <div class="quarter" id="quarter">
+                <h1>x ou 0</h1>
+            </div>
         </div>
-        <div class="quarter" id="two">
-            <h1>x ou 0</h1>
+        <div class="linha-2" id="linha-2">
+            <div class="quarter" id="quarter">
+                <h1>x ou 0</h1>
+            </div>
+            <div class="quarter" id="quarter">
+                <h1>x ou 0</h1>
+            </div>
+            <div class="quarter" id="quarter">
+                <h1>x ou 0</h1>
+            </div>
         </div>
-        <div class="quarter" id="three">
-            <h1>x ou 0</h1>
-        </div>
-        <div class="quarter" id="four">
-            <h1>x ou 0</h1>
-        </div>
-        <div class="quarter" id="five">
-            <h1>x ou 0</h1>
-        </div>
-        <div class="quarter" id="six">
-            <h1>x ou 0</h1>
-        </div>
-        <div class="quarter" id="seven">
-            <h1>x ou 0</h1>
-        </div>
-        <div class="quarter" id="eight">
-            <h1>x ou 0</h1>
-        </div>
-        <div class="quarter" id="nine">
-            <h1>x ou 0</h1>
+        <div class="linha-3">
+            <div class="quarter" id="quarter">
+                <h1>x ou 0</h1>
+            </div>
+            <div class="quarter" id="quarter">
+                <h1>x ou 0</h1>
+            </div>
+            <div class="quarter" id="quarter">
+                <h1>x ou 0</h1>
+            </div>
         </div>
     </main>
     <script>
-        var a = window.document.getElementsByClassName('quarter')[0]
-        a.addEventListener('click', clicar)
-        a.addEventListener('mouseup', soltar)
+        
+        var a = window.document.getElementById('quarter')[i];
+        a.addEventListener('click', clicar);
+        a.addEventListener('mousedown', soltar);
 
         function clicar() {
         a.style.background = 'red'
@@ -48,6 +55,9 @@
         function soltar() {
             a.style.background = 'green'
         }
+
+       
+        
     </script>
 </body>
 </html>
