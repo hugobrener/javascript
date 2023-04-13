@@ -1,0 +1,18 @@
+body {
+    margin: auto;
+}
+
+.mes {
+    display: flex;
+}
+
+.semana {
+    display: inline;
+}
+.dia {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border: black solid 3px;
+    text-align: center;
+}
